@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+header{
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+#container {
+
+}
+#main{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 442.52px;
+  flex-direction: row;
+}
+#human{
+position:absolute;
+z-index: -1;
+background-image: url("images/Full-body.jpg");
+width: 154px;
+height: 442.52px;
+background-size: cover;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  position: absolute;
+  z-index: -1;
+  padding-top: 0px;
+  margin: 0;
+}
+
+
+#board {
+  width: 154px;
+  height: 442.52px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#inner-board {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ height: 100%;
+ width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#inner-board div {
+  
+  width: 33.3333%;
+  height: 10%;
+
+}
+aside {
+  width: 15%;
+  background-color: green;
+}
+
+#winner-message {
+  font-size: 6em;
+  text-align: center;
+  padding-top: 30px;
+}
